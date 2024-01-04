@@ -1,0 +1,21 @@
+body{
+    background: linear-gradient(0.25turn, rgb(61, 197, 221), rgb(89, 138, 229));
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 550px;
+    height: 250px;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+button{
+    border: none;
+    background-color: darkgoldenrod;
+    margin-top: 6vh;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}

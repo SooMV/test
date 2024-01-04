@@ -1,0 +1,30 @@
+
+body {
+    margin-top: 100px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% auto;
+}
+
+img{
+    width: 200px;
+    height: 250px;
+    margin: 15px;
+}
+
+img:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#reset{
+    display: none;
+    margin: 0 auto;
+}

@@ -1,0 +1,94 @@
+h1{
+    text-align: center;
+}
+.container{
+    margin: 0 auto; 
+    background-color: rgb(33,33,33);
+    color: white;
+    padding: 30px;
+    width: 300px;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+input {
+    color:white;
+    width: 100%;
+    background-color: rgb(33,33,33);
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+}
+.container input{
+    display: block;
+}
+
+button {
+    background-color: rgb(244, 220, 45);
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+    margin: 30px 10px 0 50px;
+    font-size: 18px;
+    padding: 15px;
+   
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+
+}
+
+.icone{
+    margin-left: 5px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+#consignePassword{
+    font-size: 12px; 
+    line-height: 1.5;
+    margin-top: 10px;
+    color: grey;
+}
+.progressBar{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+}
+#lowPassword{
+    background-color: red;
+    width: 100px;
+    height: 3px;
+}
+#middlePassword{
+    background-color: orange;
+    width: 100px;
+    height: 3px;
+}
+#highPassword{
+    background-color: green;
+    width: 100px;
+    height: 3px;
+}
+
+
+#container:invalid{
+    animation : shake 0.5s ease-in-out ;
+}
+
+@keyframes shake {
+    25%{
+        transform:translateX(8px)
+    }
+    50%{
+        transform:translateX(-8px)
+    }
+    75%{
+        transform:translateX(8px)
+    }
+}

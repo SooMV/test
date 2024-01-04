@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>Inscrivez-vous.</h1>
+        <form action="">
+            <label for="userName">Nom d'utilisateur</label>
+            <img src="wrong.png" id="shortPseudo" class="icone" alt="icone wrong pseudo" style="display:none;">
+            <img src="check.png" id="longPseudo" class="icone" alt="icone good pseudo" style="display:none;">
+            <input type="text" id="userName" placeholder="3 caractères minimum">
+            <div id="consignePseudo"></div>
+    
+            <label for="userEmail">Entrez votre email</label>
+            <img src="wrong.png" id="wrongEmail" class="icone" alt="icone wrong email" style="display:none;">
+            <img src="check.png" id="goodEmail" class="icone" alt="icone good email" style="display:none;">
+            <input type="email" id="userEmail" placeholder="Votre email">
+            <div id="consigneEmail"></div>
+    
+            <label for="userPassword">Mot de passe</label>
+            <input type="password" id="userPassword" placeholder="Votre mot de passe">
+            <div id="consignePassword">Au moins un symbole, un chiffre, ainsi que 6 caractères minimum.</div>
+            <div class="progressBar">
+                <div id="lowPassword" style="display:none"></div>
+                <div id="middlePassword" style="display:none"></div>
+                <div id="highPassword" style="display:none"></div>
+            </div>
+            <div id="consignePasswordStrength"></div>
+    
+            <label for="passwordConfirm">Confirmez le mot de passe</label>
+            <img src="wrong.png" id="wrongPassword" class="icone" alt="icone wrong password" style="display:none;">
+            <img src="check.png" id="goodPassword" class="icone" alt="icone good password" style="display:none;">
+            <input type="password" id="passwordConfirm" placeholder="Confirmez le mot de passe">
+            <div id="consigneConfirm"></div>
+    
+            <button id="submit"><b>Création du compte</b></button>
+        </form>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
